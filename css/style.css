@@ -1,0 +1,1132 @@
+* {
+    font-family: "Jost", sans-serif !important;
+    font-style: normal;
+
+}
+
+a:hover {
+    color: white !important;
+}
+
+.navbar {
+    background-color: #000;
+}
+
+.navbar-brand img {
+    height: 55px;
+}
+
+.navbar-nav .nav-link {
+    color: #fff !important;
+    margin-right: 15px !important;
+    padding: 20px 13px 20px 20px !important;
+}
+
+.btn-login {
+    background-color: #FF8D35;
+    color: white;
+    margin: 1rem 1rem 1rem 1rem;
+    padding: 10px 30px 10px 30px;
+    border-radius: 6px;
+}
+
+#hero {
+    background-image: url('/images/hero-img.jpeg');
+    /* URL to your image */
+    background-size: cover;
+    /* Cover the entire div area */
+    background-repeat: no-repeat;
+    /* Do not repeat the image */
+    height: auto;
+}
+
+.hero-inner h1 {
+    font-weight: bold;
+    font-size: 3.5rem;
+}
+
+
+
+.winner-main {
+    background-color: black;
+}
+
+.winner-inner .inner {
+    text-align: center;
+    background-color: #414040;
+    padding: 20px 10px;
+    border-radius: 10px;
+}
+
+.winner-inner .inner h4 {
+    color: white;
+    margin-top: 10px;
+}
+
+.winner-inner .inner p {
+    color: white;
+    margin-top: 15px;
+}
+
+.watch-inner .watch p {
+    color: white;
+    margin-top: 1rem;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+.watch-inner .watch .easyto {
+    color: #FFFFFF;
+    text-decoration: underline !important;
+    margin-bottom: 2rem !important;
+}
+
+.watch-inner .watch h1 {
+    color: #FFFFFF;
+    margin-bottom: 1rem;
+    margin-top: 2rem;
+}
+
+.watch-inner .watch1 .secimg {
+    width: 70%;
+    height: 47vh;
+    border-radius: 13px;
+}
+
+.video-container {
+    position: relative;
+    width: 100% !important;
+    /* Same as video width */
+    height: 360px;
+    /* Same as video height */
+}
+
+video {
+    width: 100% !important;
+    height: 100%;
+    display: block;
+}
+
+.play-btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 68px;
+    /* Play button size */
+    height: 48px;
+    background: url('/images/youtobe.png') no-repeat center center;
+    background-size: contain;
+    /* Make sure the image covers the button area */
+    cursor: pointer;
+}
+
+video:playing+.poster-img {
+    display: none;
+    /* Hide the poster when video is playing */
+}
+
+video,
+.poster-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    /* Cover the entire container without distortion */
+}
+
+.poster-img {
+    z-index: -2;
+    /* Ensure it's above the video initially */
+}
+
+.sport-reality .sport h1 {
+    color: white;
+    text-align: center;
+}
+
+.sport-reality .sport p {
+    color: white;
+    text-align: center;
+}
+
+
+
+
+
+
+.slider {
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.slider .owl-item.active.center .slider-card {
+    transform: scale(1.15);
+    opacity: 1;
+    background: #414040;
+    color: #fff;
+}
+
+.slider-card {
+    background: #fff;
+    padding: 3rem 2rem;
+    margin: 50px 15px 90px 15px;
+    border-radius: 5px;
+    box-shadow: 0 15px 45px -20px rgb(0 0 0 / 73%);
+    transform: scale(0.9);
+    opacity: 0.5;
+    transition: all 0.3s;
+    position: relative;
+}
+
+.slider-card .text1 {
+    position: absolute;
+    top: 3%;
+    left: 30%;
+}
+
+.slider-card .text2 {
+    position: absolute;
+    left: 20%;
+    text-align: center;
+    font-size: 14px;
+    margin-top: 3px;
+}
+
+.slider-card img {
+    border-radius: 5px 5px 0px 0px;
+    height: 50vh !important;
+    object-fit: cover;
+}
+
+.owl-nav .owl-prev {
+    position: absolute;
+    top: calc(50% - 25px);
+    left: 0;
+    opacity: 1;
+    font-size: 30px !important;
+    z-index: 1;
+}
+
+.owl-nav .owl-next {
+    position: absolute;
+    top: calc(50% - 25px);
+    right: 0;
+    opacity: 1;
+    font-size: 30px !important;
+    z-index: 1;
+}
+
+.owl-dots {
+    text-align: center;
+}
+
+.owl-dots .owl-dot {
+    height: 10px;
+    width: 10px;
+    border-radius: 10px;
+    background: #ccc !important;
+    margin-left: 3px;
+    margin-right: 3px;
+    outline: none;
+    display: none !important;
+
+}
+
+.owl-dots .owl-dot.active {
+    display: none !important;
+}
+
+.text1 {
+    display: none;
+}
+
+.text2 {
+    display: none;
+}
+
+.slider .owl-item.active.center .text1 {
+    display: block;
+}
+
+.slider .owl-item.active.center .text2 {
+    display: block;
+}
+
+.lefticon {
+    position: absolute;
+    left: 22.4rem;
+}
+
+.righticon {
+    position: absolute;
+    right: 22.4rem;
+}
+
+
+
+
+
+.gtco-testimonials {
+    position: relative;
+    margin-top: 30px;
+
+    h2 {
+        font-size: 30px;
+        text-align: center;
+        color: #333333;
+        margin-bottom: 50px;
+    }
+
+    .owl-stage-outer {
+        padding: 30px 0;
+    }
+
+    .owl-nav {
+        display: none;
+    }
+
+    .owl-dots {
+        text-align: center;
+
+        span {
+            position: relative;
+            height: 10px;
+            width: 10px;
+            border-radius: 50%;
+            display: block;
+            background: #fff;
+            border: 2px solid #01b0f8;
+            margin: 0 5px;
+        }
+
+        .active {
+            box-shadow: none;
+
+            span {
+                background: #01b0f8;
+                box-shadow: none;
+                height: 12px;
+                width: 12px;
+                margin-bottom: -1px;
+            }
+        }
+    }
+
+    .card {
+        background: #414040;
+        /* box-shadow: 0 5px 20px -4px #c9dff0; */
+        margin: 0 20px;
+        padding: 0 10px;
+        border-radius: 10px;
+        border: 0;
+
+        .card-img-top {
+            max-width: 100px;
+            border-radius: 50%;
+            margin: 15px auto 0;
+            /* box-shadow: 0 8px 20px -4px #95abbb; */
+            width: 80px;
+            height: 80px;
+        }
+
+        h5 {
+            color: #01b0f8;
+            font-size: 21px;
+            line-height: 1.3;
+
+            span {
+                font-size: 18px;
+                color: #666666;
+            }
+        }
+
+        p {
+            font-size: 18px;
+            color: #555;
+            padding-bottom: 15px;
+        }
+    }
+
+    .active {
+        opacity: 0.5;
+        transition: all 0.3s;
+    }
+
+    .center {
+        opacity: 1;
+
+        h5 {
+            font-size: 24px;
+
+            span {
+                font-size: 20px;
+            }
+        }
+
+        .card-img-top {
+            max-width: 100%;
+            height: 80px;
+            width: 80px;
+        }
+    }
+}
+
+
+.owl-carousel {
+    .owl-nav button {
+
+        &.owl-next,
+        &.owl-prev {
+            outline: 0;
+        }
+    }
+
+    button.owl-dot {
+        outline: 0;
+    }
+}
+
+
+
+
+
+
+
+/* styles.css */
+.star-rating .star {
+    color: #f0c040;
+    /* Default color for inactive stars */
+    font-size: 20px;
+    cursor: pointer;
+    transition: color 0.2s;
+}
+
+.star-rating .star:hover,
+.star-rating .star:hover~.star {
+    color: #f0c040;
+    /* Color when the star or any star after it is hovered */
+}
+
+.star-rating .star.active {
+    color: #ffc107;
+    /* Active color for selected stars */
+}
+
+
+.girlsec h1 {
+    color: white;
+    text-align: center;
+    margin-top: 7rem;
+}
+
+
+.girlsec p {
+    color: white;
+    text-align: center;
+
+}
+
+.girlsec a {
+    color: white;
+    text-align: center;
+    margin: auto;
+}
+
+.girlsec .taga {
+    text-align: center;
+}
+
+.girl-main {
+    background-image: url('/images/girl.png');
+    /* URL to your image */
+    background-size: cover;
+    /* Cover the entire div area */
+    background-repeat: no-repeat;
+    /* Do not repeat the image */
+    height: 75vh;
+    width: 100% !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.banner {
+    background-image: url('/images/girl.png');
+    /* Replace 'path_to_your_image.jpg' with your actual image path */
+    height: 350px;
+    /* Adjust based on your preference */
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    border-radius: 10px;
+}
+
+.text .head {
+    margin: 5px 0;
+    font-size: 30px;
+    /* Adjust the font size as needed */
+    font-weight: bold;
+}
+
+.register-btn {
+    margin-top: 20px;
+    padding: 10px 25px;
+    /* This controls the size of the button */
+    background-color: orange;
+    /* Button background color */
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    color: white;
+}
+
+.register-btn:hover {
+    background-color: darkorange;
+    /* Button hover effect */
+}
+
+footer {
+    background-color: #000;
+}
+
+
+.nav-tabs .nav-link {
+    color: white;
+    background-color: black;
+    border-color: gray;
+}
+
+.nav-tabs .nav-link.active {
+    color: white;
+    background-color: #555;
+}
+
+.nav-tabs {
+    border-bottom: none !important;
+
+}
+
+.nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link.active {
+    border-radius: 10px !important;
+    padding: 10px 23px !important;
+    background-color: black !important;
+    color: white !important;
+    border-color: black !important;
+}
+
+.nav-tabs .nav-link:focus,
+.nav-tabs .nav-link:hover {
+    color: white;
+    border-radius: 10px !important;
+    border: none !important;
+}
+
+.hows-work {
+    background-color: #41404059;
+}
+
+.tnb-text h4 {
+    background-color: #000;
+    padding: 10px 10px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+.tnb-text p {
+    color: #ccc;
+}
+
+
+
+
+
+
+.widget {
+    width: 250px;
+    background-color: #222;
+    /* Black background for the widget */
+    color: white;
+    border: 1px solid #2c2c2c;
+    border-radius: 10px;
+
+}
+
+.widget1 {
+    width: 250px;
+    background-color: #222;
+    /* Black background for the widget */
+    color: white;
+    border: 1px solid #2c2c2c;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+}
+
+.widget2 {
+    width: 250px;
+    background-color: #222;
+    /* Black background for the widget */
+    color: white;
+    border: 1px solid #2c2c2c;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+
+}
+
+.widget-header {
+    padding: 10px;
+    background-color: #000;
+    /* Slightly lighter black for header */
+    position: relative;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.widget-header1 {
+    padding: 10px;
+    background-color: #000;
+    /* Slightly lighter black for header */
+    position: relative;
+
+}
+
+.close-button {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 24px;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    cursor: pointer;
+}
+
+.widget-header h3,
+.widget-header h4 {
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    line-height: 1.5;
+    text-align: center;
+}
+
+.widget-header1 h3,
+.widget-header1 h4 {
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    line-height: 1.5;
+    text-align: center;
+}
+
+.widget-body {
+    padding: 15px;
+    text-align: center;
+}
+
+.widget-body p {
+    margin: 5px 0;
+    font-size: 12px;
+}
+
+.view-button,
+.follow-button {
+    background-color: black;
+    /* Bootstrap primary color for buttons */
+    border: none;
+    color: white;
+    padding: 8px 16px;
+    margin-top: 10px;
+    cursor: pointer;
+    /* display: inline-block; */
+    width: auto;
+    margin-left: 0.5rem;
+    border-radius: 6px;
+    border: 1px solid white;
+}
+
+.widget-footer {
+    text-align: center;
+    padding: 10px;
+}
+
+.widget-footer img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+
+
+.banner1 {
+    background-image: url('/images/howworkimg.png');
+    /* Replace 'path_to_your_image.jpg' with your actual image path */
+    height: 150px;
+    /* Adjust based on your preference */
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    border-radius: 10px;
+    width: 90% !important;
+}
+
+.btn-page {
+    border: none;
+    padding: 5px 15px;
+    border-radius: 10px;
+    font-weight: 500;
+}
+
+
+
+.mooks h1 {
+    color: white;
+}
+
+.mooks p {
+    color: white;
+}
+
+.mooks h5 {
+    color: white;
+}
+
+
+.bg-inner {
+    background-color: #2C2C2C8C;
+    padding: 10px 10px;
+}
+
+.aution p {
+    color: #ccc;
+}
+
+.aution .try {
+    background-color: #393939;
+}
+
+.dropdown-toggle1 {
+    background-color: #222222 !important;
+}
+
+.bg-inner1 {
+    background-color: #2C2C2C8C;
+    padding: 5px 10px;
+}
+
+.bg-inner1 p {
+    margin-bottom: 0 !important;
+}
+
+.football-inner h2 {
+    color: white;
+    margin-bottom: 3rem;
+}
+
+.rightside p {
+    font-size: 11px;
+}
+
+.scrol::-webkit-scrollbar {
+    display: none;
+}
+
+.scrol {
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+    /* Hide scrollbar for IE and Edge */
+}
+
+.scrol {
+    /* padding: 5px 1px; */
+    overflow-y: scroll;
+    height: 91vh;
+    overflow-x: hidden;
+}
+
+.hei-set {
+    height: 11vh !important;
+    object-fit: cover;
+}
+
+.carousel-title {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 10px;
+    text-align: center;
+    padding-bottom: 4rem;
+    padding-top: 1rem;
+}
+
+.carousel-indicators {
+    bottom: -45px;
+}
+
+.carousel-indicators li {
+    background-color: rgba(255, 255, 255, 0.5);
+    border: none;
+}
+
+.carousel-indicators .active {
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+.carouselimgset {
+    height: 65vh;
+    object-fit: cover;
+}
+
+
+.card-img-top {
+    height: 35vh;
+    object-fit: cover;
+}
+
+.card {
+    background-color: #2C2C2C8C !important;
+    border: none !important;
+}
+
+.hidden {
+    display: none;
+}
+
+.frame-inner h2 {
+    color: white;
+}
+
+
+.frame-inner p {
+    color: white;
+}
+
+.frame-inner p a {
+    color: white;
+}
+
+.frame-inner h3 {
+    color: white;
+    font-weight: 100;
+    font-family: "Alfa Slab One" !important;
+    font-style: normal !important;
+    font-size: 22px;
+}
+
+.orange {
+    color: #FF8D35;
+}
+
+.contactinner h3 {
+    color: white;
+}
+
+.contactinner p {
+    color: white;
+}
+
+.btn:focus-visible {
+    box-shadow: none !important;
+}
+
+.banner2 {
+    background-image: url('/images/aboutus.png');
+    /* Replace 'path_to_your_image.jpg' with your actual image path */
+    height: 450px;
+    /* Adjust based on your preference */
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+    color: white;
+    /* border-radius: 10px; */
+    width: 100% !important;
+    border-radius: 0 !important;
+    background-color: #3C4B53;
+    padding-top: 1rem;
+}
+
+
+
+.banner3 {
+    background-image: url('/images/ludo.png');
+    /* Replace 'path_to_your_image.jpg' with your actual image path */
+    height: 450px;
+    /* Adjust based on your preference */
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+    color: white;
+    /* border-radius: 10px; */
+    width: 100% !important;
+    border-radius: 0 !important;
+    background-color: #3C4B53;
+    padding-top: 4rem;
+    margin-bottom: 8rem;
+}
+
+.green {
+    color: #00FF66;
+}
+
+.about-inner h2 {
+
+    color: white;
+}
+
+
+.about-inner p {
+    color: white;
+}
+
+.shine {
+    width: 80%;
+    height: 85vh;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.community-inner h3 {
+    color: white;
+
+}
+
+.community-inner1 h3 {
+    color: white;
+
+}
+
+.community-inner p {
+    color: white;
+}
+
+.community-inner1 p {
+    color: white;
+}
+
+.community-inner {
+    background-color: #3C4B53;
+    padding: 25px 60px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.community-inner1 {
+    background-color: #3C4B53;
+    padding: 25px 60px;
+    /* text-align: center; */
+    border-radius: 10px;
+}
+
+.btnnn {
+    margin-bottom: 2rem;
+}
+
+.btn2 {
+    background-color: #000000;
+    color: white;
+    /* border: 1px solid white; */
+    border-radius: 3px;
+    border: 0.5px solid white;
+    padding: 5px 15px;
+    margin-top: 5px;
+
+}
+
+
+.btn3 {
+    background-color: #3C4B53;
+    color: white;
+    border: 0.5px solid white;
+    border-radius: 3px;
+    padding: 5px 15px;
+    margin-top: 5px;
+}
+
+
+.pink {
+    color: #FF96A5 !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* media query  */
+
+@media (max-width: 767px) {
+    .widget {
+        width: 100%;
+    }
+
+    .widget1 {
+        width: 100%;
+    }
+
+    .widget2 {
+        width: 100%;
+    }
+
+    .tnb-text h4 {
+        background-color: #000;
+        padding: 10px 10px;
+        border-radius: 10px;
+        font-size: 10px;
+    }
+
+    .hei-set {
+        height: 31vh !important;
+        object-fit: cover;
+    }
+
+    .gtco-testimonials {
+        margin-top: 20px;
+    }
+
+    .hero-inner h1 {
+        font-size: 2rem;
+    }
+
+    .hero-inner p {
+        font-size: 11px;
+    }
+
+    #hero {
+        background-position: center;
+    }
+
+    .navbar {
+        padding-bottom: 2rem !important;
+    }
+
+    .sport-reality .sport h1 {
+        font-size: 1.5rem;
+    }
+
+    .slider-card img {
+        border-radius: 5px 5px 0px 0px;
+        height: 50vh !important;
+        object-fit: cover;
+    }
+
+    .lefticon {
+        position: absolute;
+        left: 0;
+    }
+
+    .righticon {
+        position: absolute;
+        right: 0;
+    }
+
+    .carouselimgset {
+        height: 45vh;
+        object-fit: cover;
+    }
+
+    .carousel-title {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background-color: rgba(0, 0, 0, 0.5);
+        color: white;
+        padding: 10px;
+        text-align: center;
+        padding-bottom: 3rem;
+        padding-top: 1rem;
+        font-size: 12px;
+    }
+
+    .football-inner h2 {
+        font-size: 22px;
+    }
+
+    .shine {
+        width: 100%;
+        height: 75vh;
+        object-fit: cover;
+        border-radius: 10px;
+    }
+
+    .sets {
+        font-size: 22px;
+    }
+
+    .text-cnt {
+        text-align: center;
+    }
+
+    .font-size-40 {
+        font-size: 40px;
+    }
+
+    .font-size-12 {
+        font-size: 12px;
+        /* margin-bottom: 0 !important; */
+    }
+
+    .text .head {
+        margin: 5px 0;
+        font-size: 21px;
+        font-weight: bold;
+    }
+
+    .banner3 {
+        padding-top: 3rem !important;
+    }
+
+    .btnnn {
+        margin-bottom: 2rem;
+    }
+
+    .text-center1 {
+        text-align: center;
+    }
+}
